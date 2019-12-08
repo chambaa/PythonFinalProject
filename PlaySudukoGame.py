@@ -1,8 +1,14 @@
 import pygame
-from solver import GetSolution, IsValidNumber, GetNextEmpty, GetFlipedBoard
+from SolveSudokuBoard import GetSolution, IsValidNumber, GetNextEmpty, GetFlipedBoard
 import time
 from math import sqrt
 pygame.font.init()
+
+__author__ = "Klayton Hacker"
+__email__ = "hackerkj@mail.uc.edu"
+
+__author__ = "Anna Chambers"
+__email__ = "chambaa@mail.uc.edu"
 
 
 class Box: #individual boxes
